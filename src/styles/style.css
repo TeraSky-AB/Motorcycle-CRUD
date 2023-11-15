@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    height: 150px;
+    background-color: #E00000;
+    display: flex;
+}
+
+header > img {
+    height: 120px;
+    padding: 15px;
+}
+
+header > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+header > ul > li > a {
+    position: relative;
+    left: 200px;
+    padding: 10px 15px;
+    margin-right: 8px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+}
